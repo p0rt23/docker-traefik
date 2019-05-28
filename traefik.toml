@@ -89,7 +89,7 @@
 ################################################################
 
 # Enable API and dashboard
-# [api]
+[api]
 
   # Name of the related entry point
   #
@@ -146,3 +146,5 @@
 # Default: true
 #
 # exposedByDefault = true
+
+watch = true
