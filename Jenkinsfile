@@ -12,7 +12,7 @@ node {
             
         }
         
-        sh "'"
+        sh '''
             docker run \
                 -d \
                 --restart always \
@@ -22,6 +22,6 @@ node {
                 -v $PWD/traefik.toml:/etc/traefik/traefik.toml \
                 -v /var/run/docker.sock:/var/run/docker.sock \
                 traefik:latest 
-        "'"
+        '''
     }
 }
