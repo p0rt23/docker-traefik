@@ -147,4 +147,5 @@
 #
 # exposedByDefault = true
 
+[docker]
 watch = true
